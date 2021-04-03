@@ -39,6 +39,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  
 }
 
 h1 {
@@ -65,7 +66,7 @@ p {
 
 /* Giving a background-color to the nav container. */
 nav { 
-  /*overflow: hidden;*/
+  overflow: none;
   margin:0;
 	padding: 0;
   color: black;
@@ -118,7 +119,7 @@ nav a {
 	color: black;
 	font-size:17px;
 	text-decoration:none;*/
-
+  display:block;
   color: black;
   text-align: center;
   padding: 14px 20px;
@@ -126,13 +127,12 @@ nav a {
   font-size: 17px;
 }
 
-/*nav ul li ul li:hover { background: #000000; }*/
-
+nav ul li ul li:hover { background: gray; }
 
 /* Background color change on Hover */
-/*nav a:hover { 
-	background-color: #000000; 
-}*/
+nav a:hover { 
+	background-color: rgb(77, 72, 72); 
+}
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
